@@ -6,13 +6,17 @@ junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 appcompat = "1.7.0"
+
+# View
+activity = "1.9.3"
 material = "1.12.0"
+constraintlayout = "2.2.0"
+navigation = "2.9.0-alpha04"
+
+# Compose
 composeBom = "2024.12.01"
 activityCompose = "1.9.3"
 lifecycleViewModelCompose = "2.8.7"
-constraintlayout = "2.2.0"
-activity = "1.9.3"
-navigation = "2.9.0-alpha04"
 kotlinxSerialization = "1.7.3"
 kotlinxSerializationPlugin = "2.1.0"
 

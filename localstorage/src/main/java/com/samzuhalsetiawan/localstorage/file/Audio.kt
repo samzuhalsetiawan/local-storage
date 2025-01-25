@@ -42,7 +42,7 @@ internal fun Cursor.toAudio(collection: Collection): Audio {
         album = getLongOrNull(getColumnIndexOrThrow(MediaStore.Audio.AudioColumns.ALBUM_ID))?.let { albumId ->
             Album(
                 id = albumId,
-                albumArtUri = null
+                albumArtUri = ContentUris.withAppendedId(MediaStore.Audio.Albums.EXTERNAL_CONTENT_URI, albumId)
             )
         },
     )

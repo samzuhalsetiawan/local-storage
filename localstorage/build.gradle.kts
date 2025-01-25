@@ -47,9 +47,9 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.samzuhalsetiawan"
+            groupId = "com.samzuhalsetiawan.localstorage"
             artifactId = "localstorage"
-            version = "1.1.0"
+            version = "1.0.1"
             pom {
                 name = "Local Storage"
                 description = "Android library that provide convenient way to access local storage"
